@@ -7,7 +7,7 @@
       </div>
       <hr />
       <div>
-        {{ this.excelData[1] }}
+        {{ this.excelData[0] }}
       </div>
       <input type="file" @change="excelExport" />
     </div>
